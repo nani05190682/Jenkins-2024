@@ -51,9 +51,6 @@ Continuous Integration (CI) and Continuous Deployment (CD) bring numerous advant
 - **Traceability:** CI/CD pipelines provide traceable records of changes, builds, tests, and deployments, aiding in compliance and audit requirements.
 - **Automated Documentation:** Documentation of build and deployment processes is automatically generated and updated, ensuring up-to-date and accurate information.
 
-### Summary
-CI/CD enhances the software development lifecycle by improving code quality, accelerating delivery, and increasing collaboration and transparency. These benefits collectively contribute to more efficient development processes, higher-quality software, and greater customer satisfaction.
-
 
 - **Key Concepts**
   - **Build Automation:** Automatically compiling and building the application.
@@ -104,4 +101,7 @@ CI/CD enhances the software development lifecycle by improving code quality, acc
     - Complete the setup wizard (install recommended plugins, create an admin user).
 
 
+
+- LAB01 and Lab02
+---
 
