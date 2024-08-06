@@ -101,7 +101,7 @@ Continuous Integration (CI) and Continuous Deployment (CD) bring numerous advant
     - Complete the setup wizard (install recommended plugins, create an admin user).
 
 
-
+---
 - LAB01 and Lab02
 ---
 
