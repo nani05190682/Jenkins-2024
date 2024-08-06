@@ -105,3 +105,59 @@ Continuous Integration (CI) and Continuous Deployment (CD) bring numerous advant
 - LAB01 and Lab02
 ---
 
+### Module 2: Jenkins Basics
+
+#### 2.1 Jenkins Dashboard Overview
+- **Navigating the Dashboard**
+  - **Main Dashboard:** The home screen showing all jobs, their statuses, and recent builds.
+  - **Menu Options:**
+    - **New Item:** Create new jobs or pipelines.
+    - **People:** View users and their activities.
+    - **Build History:** See recent builds and their statuses.
+    - **Manage Jenkins:** Access to system configuration and management.
+
+- **Key Components:**
+  - **Jobs:** Configured tasks to build/test/deploy code.
+  - **Builds:** Instances of job executions.
+  - **Nodes:** Machines that Jenkins uses to run jobs.
+  - **Views:** Customizable ways to organize jobs on the dashboard.
+
+#### 2.2 Creating Your First Job
+- **Job Types:**
+  - **Freestyle Project:** Basic project type suitable for most simple use cases.
+  - **Pipeline:** Advanced job type to define the entire build process as code.
+  - **Multi-Branch Pipeline:** Automatically creates pipelines for all branches in a source control repository.
+  - **Others:** Maven project, External job, etc.
+
+- **Job Configuration Basics:**
+  - **General Section:**
+    - **Job Name:** Unique identifier for the job.
+    - **Description:** A brief description of the job's purpose.
+  - **Source Code Management:**
+    - **Repository URL:** URL of the source control repository (Git, SVN, etc.).
+    - **Credentials:** Securely manage authentication credentials.
+  - **Build Triggers:**
+    - **Poll SCM:** Check the repository at intervals for changes.
+    - **Build periodically:** Schedule jobs to run at specified intervals.
+    - **Other triggers:** E.g., build after other projects are built.
+  - **Build Environment:**
+    - Options to set up the environment, such as cleaning the workspace before a build.
+  - **Build Steps:**
+    - **Execute shell:** Run shell commands/scripts.
+    - **Invoke Ant:** Run Ant scripts.
+    - **Invoke Gradle script:** Run Gradle scripts.
+    - **Other steps:** Configurable build actions.
+  - **Post-build Actions:**
+    - **Email notifications:** Send emails upon build completion.
+    - **Archive artifacts:** Save build artifacts for later use.
+    - **Trigger other projects:** Start other jobs after the current job completes.
+
+- **Running and Monitoring Jobs:**
+  - **Run/Build Now:** Manually trigger a job.
+  - **Console Output:** View logs of the build process.
+  - **Build History:** Track previous builds and their outcomes.
+  - **Job Status:** Visual indicators (e.g., blue for success, red for failure) showing the current status of jobs.
+
+
+
+
